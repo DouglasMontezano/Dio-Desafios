@@ -7,10 +7,11 @@ Código Condição de pagamento:
 - À vista no Dinheiro ou PIX, recebe 15% de desconto;
 - Em duas vezes, preço normal de etiqueta sem juros;
 - Acima de duas vezes, preço normal de etiqueta mais juros de 10%;*/
-
+function main(){ 
 let preco_produto = 120.00;
 let forma_pag = 4;
-veri_cond_pag(forma_pag, preco_produto);
+veri_cond_pag(forma_pag, preco_produto);}
+main();
 
 function add_desconto(preco_produto, desconto) {
  return (preco_produto - (preco_produto * (desconto / 100)));
