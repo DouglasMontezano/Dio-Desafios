@@ -18,6 +18,7 @@ class Veiculo {
  valor_litro;
  consumo_med;
  valor_tot_gasto;
+ 
  constructor(marca_veiculo, modelo_veiculo, cor_veiculo) {
   this.marca_veiculo = marca_veiculo;
   this.modelo_veiculo = modelo_veiculo;
