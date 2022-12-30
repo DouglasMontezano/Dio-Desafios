@@ -8,7 +8,6 @@ class Pessoa {
 nome; 
 altura; 
 peso; 
-
 constructor (nome, altura, peso){
  this.nome = nome;
  this.altura= altura;
