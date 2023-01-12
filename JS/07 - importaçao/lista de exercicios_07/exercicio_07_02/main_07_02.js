@@ -15,7 +15,7 @@ Exemplo:
 */
 
 // require do arquivo externo
-const {Maiormenor, Print} = require('./func_aux');
+const {Maiormenor, Print} = require('./func_aux_07_02');
 // definindo a lista de valores.
 const lista = [4, 100, 150, 90, 200];
 // chamada da função enviando a lista como argumento
