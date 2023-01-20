@@ -13,7 +13,7 @@ var resultado;
 // Função principal
 function main() {
   var operacao = Number(prompt('Digite o tipo de operação que deseja realizar \n 1:Adiçao \n 2: Subtração \n 3: Divisão \n 4: Multiplicação \n 5:Exponenciação'));
-  if (!operacao || operacao < 0 || operacao >= 7) {
+  if (!operacao || operacao < 0 || operacao >= 6) {
     alert('Valor inválido');
     main();
   }
